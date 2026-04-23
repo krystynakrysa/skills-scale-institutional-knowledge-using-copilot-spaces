@@ -6,7 +6,7 @@ Welcome to the OctoAcme Project Management Docs! This README provides a high-lev
 
 OctoAcme follows a structured, lifecycle-based approach to project management that emphasizes customer value, iterative delivery, and clear ownership. The framework is organized around five core phases: **Initiation**, **Planning**, **Execution**, **Release**, and **Close & Retrospective**. During initiation, teams validate business needs, align stakeholders, and create a lightweight Project One-pager that captures the problem statement, success metrics, and initial timeline. Once approved, the planning phase breaks work into shippable increments with prioritized backlogs, estimated scope, and clearly defined acceptance criteria.
 
-The delivery model emphasizes **clear role definition and collaborative execution**. Three core personas drive project success: **Project Managers** coordinate schedules, risks, and communications; **Product Managers** define outcomes and prioritize the backlog; and **Developers** implement features while contributing to design, testing, and risk identification. Teams operate within a regular communication cadence that includes daily standups (15 minutes focused on progress and blockers), weekly delivery syncs, and milestone-based demos. Quality is built into every step through unit and integration testing, CI/CD pipelines with automated linting and security scanning, and manual QA validation when needed.
+The delivery model emphasizes **clear role definition and collaborative execution**. Eight core personas drive project success: **Project Managers** coordinate schedules, risks, and communications; **Product Managers** define outcomes and prioritize the backlog; **Developers** implement features while contributing to design, testing, and risk identification; **Scrum Masters** facilitate agile ceremonies and remove impediments; **UX Designers** ensure user-centered design throughout the lifecycle; **Business Analysts** bridge business needs and technical solutions; **QA Leads** own quality strategy and testing; and **Stakeholders** provide strategic inputs and approvals. Teams operate within a regular communication cadence that includes daily standups (15 minutes focused on progress and blockers), weekly delivery syncs, and milestone-based demos. Quality is built into every step through unit and integration testing, CI/CD pipelines with automated linting and security scanning, and manual QA validation when needed.
 
 Risk management and stakeholder communication are woven throughout the entire lifecycle. OctoAcme maintains a Risk Register that tracks potential issues by ID, description, impact, likelihood, owner, and mitigation plan, with status reviewed weekly. Escalation follows a clear three-level path: Level 1 (team triage in standups), Level 2 (PM escalates to Product Lead and dependent teams), and Level 3 (sponsor-level escalation for business-impacting issues). Communication is standardized through weekly status templates covering progress, next steps, blockers, and decisions needed, ensuring all stakeholders have consistent visibility into project health.
 
@@ -30,7 +30,11 @@ Use these docs as your reference for all project phases:
 
 - [**Retrospective & Continuous Improvement**](octoacme-retrospective-and-continuous-improvement.md) — How to run retrospectives, capture learnings, convert them into action items, and build a continuous improvement culture.
 
-- [**Roles and Personas**](octoacme-roles-and-personas.md) — Definitions of core roles (Developers, Product Managers, Project Managers) including responsibilities, goals, and typical communication patterns.
+- [**Roles and Personas**](octoacme-roles-and-personas.md) — Definitions of all project roles (Developers, Product Managers, Project Managers, Scrum Master, UX Designer, Business Analyst, QA Lead, Stakeholders) including responsibilities, goals, and typical communication patterns.
+
+- [**RACI Matrix**](octoacme-raci-matrix.md) — Cross-role responsibility matrix (Responsible, Accountable, Consulted, Informed) for key activities across all project lifecycle phases.
+
+- [**Role Handoffs Checklist**](octoacme-role-handoffs-checklist.md) — Phase-by-phase handoff checklists ensuring clean transitions from Initiation → Planning → Execution → Release → Retrospective.
 
 ## How to Use These Docs
 
